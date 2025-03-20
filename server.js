@@ -51,5 +51,5 @@ app.delete('/items/:id', (req, res) => {
         res.status(404).send({ message: 'Item not found' });
     }
 });
-
+console.log("console on logs")
 app.listen(port);
