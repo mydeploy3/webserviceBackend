@@ -15,6 +15,7 @@ app.post('/items', (req, res) => {
 
 // Read
 app.get('/items', (req, res) => {
+    console.log("is empty !!!!!!!!!!!!")
     res.send(items);
 });
 
